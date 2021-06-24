@@ -27,7 +27,7 @@
 }
 
 /* immagini */
-.images {
+.img1 {
     width: 100%;
     display: block;
 }
@@ -38,11 +38,11 @@
 }
 
 /* effetto cambio immagine con hover  */
-#change-image:hover .images {
+.change-image:hover .img1 {
      display: none;
 }
 
-#change-image:hover .img2 {
+.change-image:hover .img2 {
      display: block;
 }
 
@@ -92,7 +92,7 @@
     color: red;
 }
 
-#initial-price {
+.initial-price {
     text-decoration: line-through;
     color: black;
     font-weight: 500;
