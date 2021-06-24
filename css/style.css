@@ -68,12 +68,17 @@
     line-height: 25px;
     position: absolute;
     bottom: 60px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .discount.sustenibility {
-    background-color: green;
+    background-color: #00875A;
     left: 42px;
+    width: 70px;
+}
+
+#sustenibility2 {
+    background-color: #00875A;
     width: 70px;
 }
 
@@ -96,10 +101,4 @@
     text-decoration: line-through;
     color: black;
     font-weight: 500;
-}
-
-/* etichetta  */
-#sustenibility2 {
-    background-color: green;
-    width: 70px;
 }
