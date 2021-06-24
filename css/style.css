@@ -4,3 +4,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.product {
+    width: calc(100% / 3 - 3px);
+    position: relative;
+    display: inline-block;
+}
+
+
+.images {
+    width: 100%;
+
+}
+
+.heart {
+    background-color: white;
+    position: absolute;
+    bottom: 510px;
+    right: 0;
+    width: 27px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.discount {
+    background-color: #EB0037;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    position: absolute;
+    bottom: 60px;
+    font-size: 10px;
+}
+
+.discount.sustenibility {
+    background-color: green;
+    left: 42px;
+    width: 70px;
+}
+
+.brand {
+    font-size: 15px;
+}
+
+.info-item {
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+}
+
+#initial-price {
+    text-decoration: line-through;
+    color: black;
+    font-weight: 500;
+}
